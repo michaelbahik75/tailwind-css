@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="m-[20px] py-[16px] px-[64px]">
+    <div class="py-[4px] px-[16px]">
+      <div class="flex justify-between bg-white h-[60px] items-center border-b-[0.5px] border-b-sky-300">
+        <div class="flex arial text-lg">BlogHub · Community-driven content platform</div>
+        <div class="flex mr-[20px] gap-[15px] items-center">
+          <div class="text-white bg-black rounded-lg py-[8px] px-[18px]  hover:bg-gray-200 hover:cursor-pointer hover:text-gray-500">Home</div>
+
+          <div class="text-black bg-white rounded-lg py-[8px] px-[18px]  hover:bg-gray-200 hover:cursor-pointer hover:text-gray-500">Browse</div>
+          <div class="text-black bg-white rounded-lg py-[8px] px-[18px]  hover:bg-gray-200 hover:cursor-pointer hover:text-gray-500">Submit Content</div>
+        
+        </div>
+      </div>
+
+      <div class="flex flex-col bg-[#f3f4f6] rounded-[5px] h-[200px] justify-center items-center mt-[20px] mb-[20px]">
+        <h2 class="m-[20px]">Welcome to BlogHub</h2>
+        <p class="m-[10px] text-center">
+          A community-driven platform where creators share insights, stories,
+          and expertise<br />
+          across diverse themes and subjects.
+        </p>
+        <div class="flex gap-[15px]">
+          <div class="text-white bg-black rounded-lg py-[8px] px-[18px] hover:bg-gray-200 hover:cursor-pointer hover:text-gray-500">Explore Content</div>
+          <div class="text-black bg-white rounded-lg py-[8px] px-[18px] hover:bg-gray-200 hover:cursor-pointer hover:text-gray-500">Share Your Story</div>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="flex justify-between mt-[50px] mb-[20px]">
+          <div>Featured Posts</div>
+          <div>View All →</div>
+        </div>
+        <!-- class = card1 -->
+        <div class="grid grid-cols-3 gap-5">
+          <div class="grid border border-[#ccc] bg-white rounded-[14px] cursor-pointer overflow-hidden hover:rounded-[14px] hover:bg-gray-200"> 
+            <div class="relative">
+              <img
+                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop"
+                 class="h-full w-full object-cover"
+                alt=""
+              />
+              <span class="absolute top-[12px] right-[12px] bg-black text-[#fff] text-[12px] py-[4px] px-[10px] rounded-[999px]">Blog</span>
+            </div>
+
+            <div class="py-[4px] px-[10px]">
+              <div class="flex justify-between items-center text-[13px] mt-[10px] mb-[10px]">
+                <span class="bg-white text-black rounded-[999px] border-2 border-[#f3f4f6] items-center">Web Development</span>
+                <span class="text-[#6b7280]">January 15, 2024</span>
+              </div>
+              <h3 class="text-[18px] mb-[6px]">The Future of Web Development: React 19 and Beyond</h3>
+              <p class="text-[13px] text-[#6b7280]">by Sarah Chen</p>
+              <p class="text-[14px] text-[#4b5563] mb-[14px] text-#4b5563 w-0.8">
+                Exploring the revolutionary features coming in React 19 and how
+                they will transform modern web development.
+              </p>
+
+              <div class="flex flex-wrap gap-[4px]">
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">React</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">JavaScript</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Frontend</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Development</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- class = card2 -->
+          <div class="grid flex-col border border-[#ccc] bg-white rounded-[14px] cursor-pointer overflow-hidden hover:rounded-[14px] hover:bg-gray-200">
+            <div class="relative">
+              <img
+                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=400&fit=crop"
+                 class="h-full w-full object-cover"
+                alt=""
+              />
+              <span class="absolute top-[12px] right-[12px] bg-white text-black text-[12px] py-[4px] px-[10px] rounded-[999px]">vlog</span>
+            </div>
+
+            <div class="py-[4px] px-[10px]">
+              <div class="flex justify-between items-center text-[13px] mt-[10px] mb-[10px]">
+                <span class="bg-white text-black rounded-[999px] border-2 border-[#f3f4f6] items-center">Sustainability</span>
+                <span class="text-[#6b7280]">January 12, 2024</span>
+              </div>
+
+              <h3 class="text-[18px] mb-[6px]">Sustainable Cooking: Zero Waste Kitchen Tips</h3>
+              <p class="text-[13px] text-[#6b7280]">by Marcus Green</p>
+              <p class="text-[14px] text-[#4b5563] mb-[14px] text-#4b5563 w-0.8">
+                Practical tips for creating a sustainable, zero-waste kitchen
+                that benefits both the environment and your wallet.
+              </p>
+
+              <div class="flex flex-wrap gap-[4px]">
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Sustainability</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Cooking</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Environment</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Zero Waste</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- class=card3 -->
+          <div class="card grid flex-col border border-[#ccc] bg-white rounded-[14px] cursor-pointer overflow-hidden hover:rounded-5 hover:bg-gray-200">
+            <div class="card-image relative">
+              <img
+                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop"
+                 class="h-full w-full object-cover"
+                alt=""
+              />
+              <span class="absolute top-[12px] right-[12px] bg-black text-[12px] text-[#fff] py-[4px] px-[10px] rounded-[999px]">Blog</span>
+              </div>
+
+              <div class="card-content py-[4px] px-[10px]">
+                <div class="flex justify-between items-center text-[13px] mt-[10px] mb-[10px]">
+                  <span class="bg-white text-black rounded-[999px] border-2 border-[#f3f4f6] items-center">Web Development</span>
+                  <span class="text-[#6b7280]">January 15, 2024</span>
+                </div>
+                
+              
+              <h3 class="text-[18px] mb-[6px]">The Future of Web Development: React 19 and Beyond</h3>
+              <p class="text-[13px] text-[#6b7280]">by Sarah Chen</p>
+              <p class="text-[14px] text-[#4b5563] mb-[14px] text-#4b5563 w-0.8">
+                Exploring the revolutionary features coming in React 19 and how
+                they will transform modern web development.
+              </p>
+
+              <div class="flex flex-wrap gap-[4px]">
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">React</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">JavaScript</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Frontend</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Development</span>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+
+      <div class="mt-[50px]">
+        <p>Popular Themes</p>
+
+        <div class="grid grid-cols-5 gap-[20px] mt-[20px]">
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Web Development</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Sustainability</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Mental Health</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Technology</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Lifestyle</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Business</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Education</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Health</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Travel</button>
+          <button class="bg-white border border-[#e5e7eb] rounded-[12px] py-[18px] px-[12px] text-center text-[14px] font-[500] cursor-pointer hover:bg-gray-200 hover:rounded-[5px] hover:cursor-pointer hover:text-gray">Finance</button>
+        </div>
+      </div>
+    </div>
+
+  <div class="text mt-[50px]">
+        <p>Recent posts</p>
+          <div class="mt-[10px] grid grid-cols-2 gap-5">
+          <div class="grid border border-[#ccc] bg-white rounded-[14px] cursor-pointer overflow-hidden hover:rounded-5 hover:bg-gray-200"> 
+            <div class="relative">
+              <img
+                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop"
+                 class="h-full w-full object-cover"
+                alt=""
+              />
+              <span class="absolute top-[12px] right-[12px] bg-black text-[#fff] text-[12px] py-[4px] px-[10px] rounded-[999px]">Blog</span>
+            </div>
+
+            <div class="py-[4px] px-[10px]">
+              <div class="flex justify-between items-center text-[13px] mt-[10px] mb-[10px]">
+                <span class="bg-white text-black rounded-[999px] border-[#f3f4f6] items-center">Web Development</span>
+                <span class="text-[#6b7280]">January 15, 2024</span>
+              </div>
+              <h3 class="text-[18px] mb-[6px]">The Future of Web Development: React 19 and Beyond</h3>
+              <p class="text-[13px] text-[#6b7280]">by Sarah Chen</p>
+              <p class="text-[14px] text-[#4b5563] mb-[14px] text-#4b5563 mb-[14px] w-0.8">
+                Exploring the revolutionary features coming in React 19 and how
+                they will transform modern web development.
+              </p>
+
+              <div class="flex flex-wrap gap-[4px]">
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">React</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">JavaScript</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Frontend</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Development</span>
+              </div>
+            </div>
+          </div>
+
+               <div class="grid border border-[#ccc] bg-white rounded-[14px] cursor-pointer overflow-hidden hover:rounded-5 hover:bg-gray-200"> 
+            <div class="relative">
+              <img
+                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop"
+                 class="h-full w-full object-cover"
+                alt=""
+              />
+              <span class="absolute top-[12px] right-[12px] bg-black text-[#fff] text-[12px] py-[4px] px-[10px] rounded-[999px]">Blog</span>
+            </div>
+
+            <div class="py-[4px] px-[10px]">
+              <div class="flex justify-between items-center text-[13px] mt-[10px] mb-[10px]">
+                <span class="bg-white text-black rounded-[999px] border-[#f3f4f6] items-center">Web Development</span>
+                <span class="text-[#6b7280]">January 15, 2024</span>
+              </div>
+              <h3 class="text-[18px] mb-[6px]">The Future of Web Development: React 19 and Beyond</h3>
+              <p class="text-[13px] text-[#6b7280]">by Sarah Chen</p>
+              <p class="text-[14px] text-[#4b5563] mb-[14px] text-#4b5563 mb-[14px] w-0.8">
+                Exploring the revolutionary features coming in React 19 and how
+                they will transform modern web development.
+              </p>
+
+              <div class="flex flex-wrap gap-[4px]">
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">React</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">JavaScript</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Frontend</span>
+                <span class="bg-[#f3f4f6] text-[12px] py-[6px] px-[10px] rounded-[999px] m-[8px]">Development</span>
+              </div>
+            </div>
+          </div>
+
+  </div> 
+    </div>
+  </body>
+</html>
